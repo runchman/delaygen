@@ -27,10 +27,10 @@
  Authors: David M. Kline (DMK)
           Eric Norum (EN)
           Dohn Arms (DAA)
-		  John Runchey (JQR)
+          John Runchey (JQR)
  -----------------------------------------------------------------------------
  History:
- 2020-Aug-03  JQR  Add support for INSR commands.
+ 2020-Aug-03  JQR  Add support for INSR command.
  2009-Jan-31  DMK  Derived support from drvAsynColby driver.
  2009-Feb-11  DMK  Initial development version V1.0 complete.
  2009-Feb-11  DMK  Development version V1.1 complete.
