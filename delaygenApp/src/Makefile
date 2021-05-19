@@ -18,8 +18,8 @@ delaygen_SRCS += drvAsynCoherentSDG.cpp
 delaygen_LIBS += asyn
 delaygen_LIBS += $(EPICS_BASE_IOC_LIBS)
 
-delaygen_LIBS_vxWorks += asyn TyGSOctal Ipac ip
-delaygen_LIBS_vxWorks += $(EPICS_BASE_IOC_LIBS)
+#delaygen_LIBS_vxWorks += asyn TyGSOctal Ipac ip
+#delaygen_LIBS_vxWorks += $(EPICS_BASE_IOC_LIBS)
 
 DBD += devDG535.dbd
 DBD += drvAsynDG645.dbd
@@ -31,12 +31,12 @@ DBD += delaygenSupport.dbd
 #=============================================================================
 # Build an IOC application
 ifeq ($(OS_CLASS),Linux)
-PROD_IOC = delaygenApp
+#PROD_IOC = delaygenApp
 endif
 
 #-----------------------------------------------------------------------------
 # <name>.dbd will be created and installed
-DBD += delaygenApp.dbd
+#DBD += delaygenApp.dbd
 
 #-----------------------------------------------------------------------------
 # <name>_registerRecordDeviceDriver.cpp will be created from <name>.dbd
